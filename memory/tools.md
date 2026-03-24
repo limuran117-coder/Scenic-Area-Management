@@ -58,6 +58,69 @@
 
 ---
 
+## 本地技能（2026-03-20新增）
+
+### browser-understanding
+- **位置**：`~/.openclaw/skills/browser-understanding/SKILL.md`
+- **功能**：浏览器+视觉AI理解，智能页面分析
+- **用途**：抖音/小红书数据采集
+
+### workflow-templates
+- **位置**：`~/.openclaw/skills/workflow-templates/SKILL.md`
+- **功能**：标准化工作流模板
+- **用途**：数据采集、报告生成、任务执行
+
+### task-validator
+- **位置**：`~/.openclaw/skills/task-validator/SKILL.md`
+- **功能**：任务验证与防错
+- **用途**：执行前/中/后验证检查
+
+### project-organizer
+- **位置**：`~/.openclaw/skills/project-organizer/SKILL.md`
+- **功能**：项目与技能组织管理
+- **用途**：工作区结构、技能映射、任务管理
+
+### elite-longterm-memory
+- **位置**：`~/.openclaw/skills/elite-longterm-memory/SKILL.md`
+- **功能**：增强记忆系统（WAL协议+向量搜索+Git-Notes）
+- **状态**：已安装
+
+### feishu-doc-manager
+- **位置**：`~/.openclaw/skills/feishu-doc-manager/SKILL.md`
+- **功能**：飞书文档管理（Markdown表格转换、权限管理、长内容分段）
+- **状态**：✅ 已安装
+- **用途**：解决飞书文档三大痛点
+
+---
+
+## NPM插件（已安装）
+
+### openclaw-workflowskill
+- **位置**：`~/.openclaw/extensions/openclaw-workflowskill/`
+- **功能**：YAML工作流编写、验证、执行、审查
+- **状态**：✅ 已安装并生效
+- **用途**：标准化工作流模板定义
+
+### 备用：clawaid（已安装未配置）
+- **功能**：AI自动诊断修复（崩溃/配置错误/网络问题/模型失败）
+- **状态**：已安装，需手动启用
+
+---
+
+## 未安装的技能
+
+### openclaw-hybrid-memory
+- **功能**：持久记忆+语义搜索（SQLite+LanceDB）
+- **状态**：已安装未配置，需要embedding API Key
+- **替代方案**：使用本地elite-longterm-memory技能
+
+### openclaw-plugin-life-validation
+- **功能**：验证层（冲突检测、可信度裁决、记忆审计）
+- **状态**：插件格式不兼容
+- **替代方案**：使用本地task-validator技能
+
+---
+
 ## 模型配置
 
 | 场景 | 模型 | 配置 |

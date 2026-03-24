@@ -58,6 +58,41 @@ python3 scripts/query_data_v2.py --type holiday --name 清明节 --year 2024
 
 ## 其他工具
 
+### 抖音指数日报标准（重要！）
+
+**脚本位置**：`/Users/tianjinzhan/.openclaw/workspace/scripts/douyin_index_v9.py`
+
+**标准格式**（必须遵守）：
+1. 所有数据以表格形式展示
+2. 30天/7天搜索指数对比表
+3. 人群画像对比表
+4. 每个景区详细分析（含指标表格）
+5. 竞品策略洞察表
+6. 营销建议表
+
+**重要**：分析内容需要自行优化纠错，根据数据变化给出深入洞察，不能简单填充表格
+
+**发送时间**：每日8:00
+**发送目标**：飞书群 oc_f109bcfd1bc7e166fd0ae077f70247cf
+
+---
+
+### 小红书数据分析日报（已创建）
+
+**日报脚本**：`scripts/xiaohongshu_report.py`
+
+**日报内容**：
+- AIPS人群资产（认知/兴趣/深度兴趣/购买/分享）
+- 行业排名变化
+- 品牌度量数据
+- **KOC矩阵效果分析**（重点！达人效果已被证伪）
+- 综合洞察与营销建议
+
+**核心原则**：聚焦KOC，弱化达人数据
+
+**发送时间**：每日10:00
+**发送目标**：飞书群 oc_f109bcfd1bc7e166fd0ae077f70247cf
+
 ### Excel处理
 参见 `~/.openclaw/skills/excel-handler/SKILL.md`
 

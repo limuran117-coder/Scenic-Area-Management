@@ -1,0 +1,34 @@
+# OpenClaw
+.openclaw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+._*
+
+# 大数据文件
+*.xlsx
+*.xls
+*.pptx
+*.pdf
+
+# 临时文件
+temp/
+*.tmp
+~$*
+
+# 备份文件
+*~
+*.bak
+
+# CLI-Anything
+CLI-Anything/
+Scrapling/
+
+# 图片资料链接（本地专用）
+/Users/
+/Desktop/
