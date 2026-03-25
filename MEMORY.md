@@ -107,6 +107,13 @@ core_mission: 景区客流与营收增长，数据驱动的全域营销操盘
 - **短视频营销方法论深化**：补充2025年四大趋势（多元化、精细化、智能化、场景化）
 - **GitHub Desktop自动化**：完成集成实现每日自动同步
 - **GEO发布脚本升级**：支持百家号、小红书、知乎全平台发布
+- **GitHub仓库更名**：3月25日仓库更名为 Scenic-Area-Management
+- **README中英双语化**：添加中英文README说明文档
+- **研学GEO资料生成**：从研学资料文件夹提取数据，生成完整研学GEO方案（基地概况+课程体系+20问答库）
+- **VoltAgent Skills学习**：深度学习awesome-openclaw-skills，整理5000+技能分类，筛选8个推荐技能
+  - 必要安装：active-maintenance, arc-memory-pruner, audit-code
+  - 建议安装：alex-session-wrap-up, agent-cost-monitor, csv-pipeline, api-tester, add-analytics
+- **小红书日报模板升级**：采用周报模板风格，提升数据维度完整性
 - **飞书定时任务修复**：确保日报使用正确脚本和表格格式
 
 ---
